@@ -19,6 +19,9 @@ public class MapReady implements OnMapReadyCallback, MapboxMap.OnMapClickListene
 
         this.mapboxMap = mapboxMap;
 
+        mapboxMap.getUiSettings().setZoomGesturesEnabled(true);
+        mapboxMap.getUiSettings().setScrollGesturesEnabled(true);
+        mapboxMap.getUiSettings().setAllGesturesEnabled(true);
 
         System.out.println("MapBox 启动完成");
         mapboxMap.addOnMapClickListener(this);

@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
+    <!--初始点为世纪大道-->
     <com.mapbox.mapboxsdk.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
         mapbox:mapbox_cameraTargetLat="31.23713455317329"
         mapbox:mapbox_cameraTargetLng="121.50481624017016"
         mapbox:mapbox_cameraZoom="15"
-        mapbox:mapbox_styleUrl="@string/mapbox_style_mapbox_streets" >
+        mapbox:mapbox_styleUrl="@string/mapbox_style_mapbox_streets">
 
         <Button
             android:id="@+id/jump"
@@ -23,7 +24,7 @@
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginBottom="10dp"
             android:background="@drawable/shape"
-            android:text="回到原点"
+            android:text="@string/button_click_back_to_start_location"
             android:textColor="#fff" />
     </com.mapbox.mapboxsdk.maps.MapView>
 

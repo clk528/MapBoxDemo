@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--定位权限提示语-->
+    <string name="user_location_permission_explanation">需要定位权限来获取当前的位置信息.</string>
+    <string name="user_location_permission_not_granted">你拒绝了app的权限请求.</string>
+    <string name="missing_gps_provider_error_message">设备缺少GPS模块；获取当前位置失败</string>
+
+    <string name="button_click_back_to_start_location">回到原点</string>
+</resources>
